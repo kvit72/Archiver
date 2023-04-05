@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class ConsoleHelper {
     private static BufferedReader bis = new BufferedReader(new InputStreamReader(System.in));
 
-    private static void writeMessage(String message) {
+    public static void writeMessage(String message) {
         System.out.println(message);
     }
 
